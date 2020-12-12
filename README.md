@@ -1,2 +1,2 @@
 # scrips
-Test Scrip
+Test Script
