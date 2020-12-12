@@ -4,8 +4,8 @@
 # ASEGURESE DE TENER UN SERVIDOR / VPS CON AL MENOS > 1GB DE RAM
 # You must to have at least > 1GB of RAM
 
-domain=solucioncb.xyz
-email=cdm.auxsis@gmail.com
+domain=TUDOMINIO.COM
+email=INFO@TUDOMINIO.COM
 # VARIABLE MAX MEMORY PERCENT
 CMD_M=80
 
@@ -358,7 +358,7 @@ echo "email: $email"
 
 echo "******************************************************************"
 
-# sudo git clone https://github.com/auxsis/scrips.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
+# sudo git clone https://github.com/auxsis/DeployOdoo.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
 # sudo git clone https://github.com/auxsis/drgsh.git /opt/odoosrc/13.0/extra-addons/emipro
 # sudo git clone https://github.com/auxsis/Addons-2.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
 sudo git clone https://github.com/auxsis/odooapps.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/odooapps
