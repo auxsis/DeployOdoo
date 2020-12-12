@@ -156,7 +156,7 @@ logfile= $PATH_LOG/odoo$VCODE-server.log
 addons_path =
     $PATHREPOS,
     $PATHREPOS/odooapps,
-    $PATHREPOS/auxsis,
+    $PATHREPOS/scrips,
     $PATHREPOS/Odoo_CFDI_3.3,
     $PATHREPOS/server-tools,
     $PATHREPOS/web,
