@@ -3,7 +3,7 @@
 cd /opt/odoosrc/13.0/extra-addons/
 
 # Instalador de Odoo13
-sudo git clone https://github.com/auxsis/scrips.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
+sudo git clone https://github.com/auxsis/DeployOdoo.git -b 13.0 --depth 1 /home
 
 # Conekta python wrapper
 sudo pip3 install conekta
@@ -35,9 +35,9 @@ systemctl list-unit-files --all
 
 sudo apt-get -y install git
 
-sudo git clone -b 13.0 --depth 1 https://github.com/auxsis/scrips.git  Odoo
+sudo git clone -b 13.0 --depth 1 https://github.com/auxsis/DeployOdoo.git  Odoo13
 
-cd Odoo
+cd Odoo13
 
 sudo chmod +x odoo13.sh
 
