@@ -156,7 +156,7 @@ logfile= $PATH_LOG/odoo$VCODE-server.log
 addons_path =
     $PATHREPOS,
     $PATHREPOS/odooapps,
-    $PATHREPOS/scrips,
+    $PATHREPOS/auxsis,
     $PATHREPOS/Odoo_CFDI_3.3,
     $PATHREPOS/server-tools,
     $PATHREPOS/web,
@@ -169,6 +169,7 @@ addons_path =
     $PATHREPOS/partner-contact,
     $PATHREPOS/stock-logistics-barcode,
     $PATHREPOS/knowledge,
+    $PATHREPOS/emipro,
     $PATHBASE/$VERSION/odoo/addons
 
 #################################################################
@@ -357,7 +358,9 @@ echo "email: $email"
 
 echo "******************************************************************"
 
-# sudo git clone https://github.com/auxsis/scrips.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/scrips
+# sudo git clone https://github.com/auxsis/scrips.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
+# sudo git clone https://github.com/auxsis/drgsh.git /opt/odoosrc/13.0/extra-addons/emipro
+# sudo git clone https://github.com/auxsis/Addons-2.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/auxsis
 sudo git clone https://github.com/auxsis/odooapps.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/odooapps
 sudo git clone https://github.com/auxsis/Odoo_CFDI_3.3.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/Odoo_CFDI_3.3
 sudo git clone https://github.com/auxsis/server-tools.git -b 13.0 --depth 1 /opt/odoosrc/13.0/extra-addons/server-tools
